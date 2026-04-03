@@ -1,2 +1,1 @@
-export const webClientId =
-    '134329457349-952c6sm81q8dvc6jbcl3rjmv2c3gbgsi.apps.googleusercontent.com'
+export const webClientId = process.env.EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID!
