@@ -7,14 +7,14 @@ const IS_PREVIEW = process.env.APP_VARIANT === 'preview'
 
 const getUniqueIdentifier = () => {
     if (IS_DEV) {
-        return 'com.anonymous.kali.dev'
+        return 'com.gesteve.lacompra.dev'
     }
 
     if (IS_PREVIEW) {
-        return 'com.anonymous.kali.preview'
+        return 'com.gesteve.lacompra.preview'
     }
 
-    return 'com.anonymous.kali'
+    return 'com.gesteve.lacompra'
 }
 
 const getAppName = () => {
