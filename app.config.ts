@@ -32,7 +32,7 @@ const getAppName = () => {
 export default ({ config }: ConfigContext): ExpoConfig => ({
     ...config,
     name: getAppName(),
-    slug: 'kali',
+    slug: 'la-compra',
     version: APP_VERSION,
     orientation: 'portrait',
     icon: './assets/images/logo_lacompra_xl.png',
@@ -89,7 +89,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
             origin: false,
         },
         eas: {
-            projectId: 'fb79922a-5476-4140-aafc-99cd66b4282c',
+            projectId: 'e19d56e3-b893-4901-939c-2e675d542844',
         },
     },
 })
